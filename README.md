@@ -2,6 +2,15 @@
 
 Add units consumed for a given day. Understand unit consumption over time.
 
+## Installing
+
+Depends on https://git-scm.com/downloads and [Docker](https://docs.docker.com/install/).
+
+```
+docker build -t unit-tracker .
+docker run --rm -it -p 3000:3000 unit-tracker
+```
+
 ## Why?
 
 - Like the [NHS Drinks Tracker](https://itunes.apple.com/gb/app/one-you-drinks-tracker/id1082307338?mt=8) as a web app, but built around my use cases, with better UI, and data export

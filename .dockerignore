@@ -1,0 +1,3 @@
+# Stops local files overwriting modules installed within image
+node_modules
+npm-debug.log
