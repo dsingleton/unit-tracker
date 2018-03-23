@@ -1,0 +1,19 @@
+{
+  "name": "unit-tracker",
+  "version": "1.0.0",
+  "description": "A webapp to track alcohol consumption",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsingleton/unit-tracker.git"
+  },
+  "author": "David Singleton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsingleton/unit-tracker/issues"
+  },
+  "homepage": "https://github.com/dsingleton/unit-tracker#readme"
+}
