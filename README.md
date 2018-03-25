@@ -6,10 +6,13 @@ Add units consumed for a given day. Understand unit consumption over time.
 
 Depends on https://git-scm.com/downloads and [Docker](https://docs.docker.com/install/).
 
-```
-docker-compose build
-docker-compose up
-```
+- Clone this repo
+- Run `make build` to create the Docker container
+- Run `make start` to run the application
+
+### Other commands
+
+- `make shell` - open a shell within the Docker container
 
 ## Why?
 
