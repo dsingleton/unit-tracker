@@ -7,8 +7,8 @@ Add units consumed for a given day. Understand unit consumption over time.
 Depends on https://git-scm.com/downloads and [Docker](https://docs.docker.com/install/).
 
 ```
-docker build -t unit-tracker .
-docker run --rm -it -p 3000:3000 unit-tracker
+docker-compose build
+docker-compose up
 ```
 
 ## Why?

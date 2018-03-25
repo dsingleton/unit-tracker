@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+    volumes:
+      # Mount local app code
+      - .:/app
+      # Prevents above overwriting node modules created during build
+      - /app/node_modules
+    ports:
+      - 3000:3000
